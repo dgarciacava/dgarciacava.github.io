@@ -1,1 +1,35 @@
 In progress...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Figure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center; /* Center contents horizontally */
+            align-items: center; /* Center contents vertically */
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+
+        .figure-container {
+            text-align: center; /* Center contents inside the container */
+        }
+
+        .figure-container img {
+            max-width: 100%; /* Ensure the image does not exceed its container width */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove any default inline spacing */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+    </style>
+</head>
+<body>
+    <div class="figure-container">
+        <img src="your-image.jpg" alt="Description of the image">
+    </div>
+</body>
+</html>
