@@ -71,6 +71,10 @@
             color: black;
         }
 
+        .no-underline a {
+            text-decoration: none; /* Remove underline from links */
+        }
+
         /* Media queries for responsiveness */
         @media (max-width: 600px) {
             .text-container {
@@ -96,7 +100,8 @@
                 <a href="publications.html" target="_blank">[Publications]</a>
                 <a href="group.html" target="_blank">[Research Group]</a></p><br>
 
-                <p>My research focuses on various aspects of structural dynamics, engineering vibrations, and structural health monitoring. Please get in touch <a href="mailto:david.garcia@ed.ac.uk">david.garcia@ed.ac.uk</a</p><br>
+                <p>My research focuses on various aspects of structural dynamics, engineering vibrations, and structural health monitoring. Please get in touch <span class="no-underline"><a href="mailto:david.garcia@ed.ac.uk">david.garcia@ed.ac.uk</a></span></p>
+
             </div>
             <img src="DGC.png" alt="Description of the image" class="resized-image">
         </div>
@@ -122,4 +127,3 @@
 </body>
 
 </html>
-
